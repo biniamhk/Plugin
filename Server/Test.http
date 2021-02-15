@@ -1,0 +1,33 @@
+GET http://localhost:5050/
+Host: localhost
+
+###
+
+GET http://localhost:5050/index.html
+Host: localhost
+
+###
+
+GET http://localhost:5050/cat.png
+Host: localhost
+
+###
+
+GET http://localhost:5050/Laboration1.pdf
+Host: localhost
+
+###
+
+GET http://localhost:5050/contacts
+Host: localhost
+
+###
+
+POST http://localhost:5050/upload
+Host: localhost
+Content-Type: application/json
+
+{
+  "FirstName": "Bim",
+  "LastName": "Ils"
+}
